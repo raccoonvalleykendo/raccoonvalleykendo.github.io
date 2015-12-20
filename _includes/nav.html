@@ -31,6 +31,14 @@
                     <a href="/services.html">Services</a>
                 </li>
 
+                {% if page.url == '/announcements.html' %}
+                  <li class="active">
+                {% else %}
+                  <li>
+                {% endif %}
+                    <a href="/announcements.html">Announcements</a>
+
+                </li>
                 {% if page.url == '/contact.html' %}
                   <li class="active">
                 {% else %}
