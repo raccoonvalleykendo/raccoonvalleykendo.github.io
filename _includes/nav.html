@@ -15,37 +15,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                {% if page.url == '/about.html' %}
-                  <li class="active">
-                {% else %}
-                  <li>
-                {% endif %}
-                  <a href="/about.html">About</a>
+              {% for nav_item in site.data.nav %}
+                <li {% if page.url == nav_item.link %} class="active" {% endif %}>
+                  <a href="{{ nav_item.link }}">{{ nav_item.name }}</a>
                 </li>
-
-                {% if page.url == '/services.html' %}
-                  <li class="active">
-                {% else %}
-                  <li>
-                {% endif %}
-                    <a href="/services.html">Services</a>
-                </li>
-
-                {% if page.url == '/announcements.html' %}
-                  <li class="active">
-                {% else %}
-                  <li>
-                {% endif %}
-                    <a href="/announcements.html">Announcements</a>
-
-                </li>
-                {% if page.url == '/contact.html' %}
-                  <li class="active">
-                {% else %}
-                  <li>
-                {% endif %}
-                    <a href="/contact.html">Contact</a>
-                </li>
+              {% endfor %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
