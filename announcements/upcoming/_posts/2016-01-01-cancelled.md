@@ -3,6 +3,6 @@ layout: post
 title: Class Cancelled
 ---
 
-Class will be cancelled December 25 due to Christmas.
+Class will be cancelled January 01 due to New Years.
 
-Have a Merry Christmas!
+Have a Happy New Years!
