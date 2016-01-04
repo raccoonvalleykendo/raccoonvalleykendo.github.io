@@ -1,0 +1,11 @@
+- name: About
+  link: /about.html
+
+- name: Info
+  link: /info.html
+
+- name: Announcements
+  link: /announcements.html
+
+- name: Contact
+  link: /contact.html
