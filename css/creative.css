@@ -246,11 +246,13 @@ header .header-content .header-content-inner p {
 .info-box {
     margin: 50px auto 0;
     max-width: 400px;
+    min-height: 256px;
 }
 
 @media(min-width:992px) {
     .info-box {
         margin: 20px auto 0;
+        min-height: 256px;
     }
 }
 
