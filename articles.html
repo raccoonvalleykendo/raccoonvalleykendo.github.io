@@ -1,0 +1,30 @@
+---
+layout: default
+title: RVKendo - Articles
+---
+
+<section class="bg-dark">
+  <div class="text-center">
+    <h1>Articles</h1>
+    <h3>Blogs, articles, and other helpful links</h3>
+  </div>
+</section>
+
+<section id="info">
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-5 text-center">
+            <ul class="text-left" style="list-style-position: outside">
+               {% for article in site.data.articles %}
+                 <li>
+                   <h5>
+                     <a href="{{ article.link }}">{{ article.name }}</a>
+                   </h5>
+                 </li>
+               {% endfor %}
+            </ul>
+          </div>
+    </div>
+</section>
+
+
