@@ -1,5 +1,5 @@
 ---
-title: Video
+title: Videos
 image_path: /img/info/icons/video.png
 ---
 
