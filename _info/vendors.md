@@ -1,6 +1,6 @@
 ---
 title: Shop
-image_path: /img/info/icons/store.png
+image_path: /img/info/icons/shopping-cart.png
 ---
 
 [e-bogu](http://ebogu.com)
