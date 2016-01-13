@@ -27,5 +27,3 @@ NOTE: Registration closed on December 25, 2015.  This post is for informational 
 ###Flyer
 [AUSKF Seminar](/img/pdfs/auskf_mudansha.pdf)
 
-
-Showing Derrick How cool this all is (Github!)[http://github.com/OldManAkatsuki]
