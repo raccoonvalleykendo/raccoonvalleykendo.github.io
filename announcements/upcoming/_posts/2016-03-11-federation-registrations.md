@@ -14,11 +14,9 @@ and a discount for participating in regional tournaments.  There have been unfor
 participate in these events were unable to do so because they failed to complete the proper paperwork.
 We process applications three times a year:
 
->at the beginning of the year (this time),
-
->at the summer camp,
-
->and at the fall MWKF tournament.
+>at the beginning of the year (this time),<br>
+>at the summer camp,<br>
+>and at the fall MWKF tournament.<br>
 
 It is easier for everybody if he/she takes care of their membership now.
 
