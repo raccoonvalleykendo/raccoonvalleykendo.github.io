@@ -1,0 +1,11 @@
+.fake_thumb {
+    width: 250px;
+    height: 180px;
+    margin: 50px auto 0;
+}
+
+/* resize images */
+.fake_thumb img {
+    width: 100%;
+    height: auto;
+}
