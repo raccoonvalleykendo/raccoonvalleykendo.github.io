@@ -1,11 +1,14 @@
 - name: About
-  link: /about.html
+  link: /about
 
 - name: Info
-  link: /info.html
+  link: /info
 
 - name: Announcements
-  link: /announcements.html
+  link: /announcements
+
+- name: gallery
+  link: /gallery
 
 - name: Contact
-  link: /contact.html
+  link: /contact
