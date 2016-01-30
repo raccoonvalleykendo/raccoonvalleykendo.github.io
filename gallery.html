@@ -1,6 +1,10 @@
 ---
 layout: default
 title: RVKendo - Gallery
+gallery:
+  name: kendo
+  path: 'img/gallery'
+  thumb: '_thumb.jpg'
 ---
 
 <section class="bg-dark">
@@ -13,11 +17,11 @@ title: RVKendo - Gallery
     <div class="container">
         <div class="row">
           {% for image in site.static_files %}
-            {% if image.path contains 'img/gallery' %}
-              {% unless image.path contains '_thumb' %}
+            {% if image.path contains page.gallery.path %}
+              {% unless image.path contains page.gallery.thumb %}
                 <div class="col-lg-4 col-md-3 col-sm-2 thumb">
-                  <a href="{{ site.baseurl }}{{ image.path }}" data-lightbox="1" title="kendo">
-                      <img src="{{ site.baseurl }}{{ image.path | replace:'.jpg', '_thumb.jpg'}}" alt="image" />
+                  <a href="{{ site.baseurl }}{{ image.path }}" data-lightbox="{{ page.gallery.name }}">
+                    <img src="{{ site.baseurl }}{{ image.path | replace:'.jpg', page.gallery.thumb }}" alt="image" />
                   </a>
                 </div>
               {% endunless %}
@@ -26,4 +30,3 @@ title: RVKendo - Gallery
         </div>
     </div>
 </section>
-
