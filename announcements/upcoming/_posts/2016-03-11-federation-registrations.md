@@ -49,7 +49,7 @@ Members do NOT have to have a Paypal account to use this payment method.
  Dojo representatives will NOT need to fill out any spreadsheets or collect member info.  They will only be responsible for making sure
  all of their dojo's members fill out the forms before the appropriate deadlines.
 
-###All members are strongly encouraged to complete the registration process as soon as possible.
+### All members are strongly encouraged to complete the registration process as soon as possible.
 
  Thank you all. I wish you all the very best and a successful 2016.
 
