@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Federation Registration
+title: Federation Registration Deadline
 ---
 
 
