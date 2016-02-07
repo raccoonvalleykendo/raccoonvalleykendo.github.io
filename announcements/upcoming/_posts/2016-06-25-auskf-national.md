@@ -1,6 +1,10 @@
 ---
 layout: post
 title: AUSKF Junior National Championships
+calendar:
+  year: 2016
+  month: 06
+  days: [25, 26]
 ---
 
 ### Registration due date: May 13, 2016
