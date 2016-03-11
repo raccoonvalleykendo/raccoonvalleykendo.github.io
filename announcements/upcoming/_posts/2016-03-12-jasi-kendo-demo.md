@@ -3,13 +3,12 @@ layout: post
 title: JASI Kendo Demonstration
 ---
 
-Join the Japan America Society of Iowa for a two part presentation about
-the Japanese Sword Martial Art, Kendo and Iaido, at the Des Moines __Southside
-Library__ and Franklin Avenue Library at __1pm__. The Kendo Presentation will be on
-__March 12, 2016__ and the Iaido Presentation will be on April 9, 2016. Come and
-learn about art, techniques, and discipline of using a Japanese sword (katana)
-from two styles of martial arts. After the presentation, stay and learn about the
-activities that Japan America Society of Iowa is organizing in the community.
+Join the Japan America Society of Iowa for live demonstrations of two Japanese Sword Martial Arts: Kendo and Iaido. Experience the art, technique, and discipline of using a Japanese sword (katana) in two ancient ways of the sword. After the presentation, stay and learn about the other activities that the Japan America Society of Iowa is organizing in greater Des Moines!
+Kendo: The way of the Sword
+
+Sat. March 12, 1:00-3:00 p.m.
+Des Moines Southside Library
+1111 SW Porter Ave, Des Moines, IA 50315
 
 
-[Event Flier](/img/pdfs/jasi_kendo_demo.pdf)<br>
+[Event Flier](/img/pdfs/jasi_demo.pdf)<br>
