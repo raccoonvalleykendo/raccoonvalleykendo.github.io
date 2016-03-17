@@ -19,13 +19,15 @@ title: RVKendo - Announcements
           <ul>
              {% assign posts = site.posts | sort: 'date' %}
              {% for post in posts %}
-               {% if post.categories contains 'upcoming' %}
-               <li>
-                 <h4>
-                   {{ post.date | date: "%d %B %Y" }} -
-                   <a href="{{ post.url }}">{{ post.title }}</a>
-                 </h4>
-               </li>
+                {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+                {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
+                {% if posttime > nowunix %}
+                   <li>
+                     <h4>
+                       {{ post.date | date: "%d %B %Y" }} -
+                       <a href="{{ post.url }}">{{ post.title }}</a>
+                     </h4>
+                   </li>
                {% endif %}
              {% endfor %}
           </ul>
