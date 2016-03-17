@@ -11,46 +11,71 @@ title: RVKendo - Announcements
 <section id="announcements">
   <div class="container">
     <div class="row">
-      <div class="col-lg-3 text-center panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title">Upcoming</h3>
-        </div>
-        <div class="panel-body text-left">
-          <ul>
-             {% assign posts = site.posts | sort: 'date' %}
-             {% for post in posts %}
-                {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-                {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
-                {% if posttime > nowunix %}
-                   <li>
-                     <h4>
-                       {{ post.date | date: "%d %B %Y" }} -
-                       <a href="{{ post.url }}">{{ post.title }}</a>
-                     </h4>
-                   </li>
-               {% endif %}
-             {% endfor %}
-          </ul>
-        </div>
+      <div class="col-lg-3">
 
-        <div class="panel-heading">
-          <h3 class="panel-title">All</h3>
-        </div>
-        <div class="panel-body text-left">
-          <ul class="text-left" style="list-style-position: outside">
-             {% for post in site.posts %}
-               <li>
-                 <h5>
-                   {{ post.date | date: "%d %B %Y" }} -
-                   <a href="{{ post.url }}">{{ post.title }}</a>
-                 </h5>
-               </li>
-             {% endfor %}
-          </ul>
-        </div>
+
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="text-center panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Upcoming
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+            <ul>
+               {% assign posts = site.posts | sort: 'date' %}
+               {% for post in posts %}
+                  {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+                  {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
+                  {% if posttime > nowunix %}
+                     <li>
+                       <h4>
+                         {{ post.date | date: "%d %B %Y" }} -
+                         <a href="{{ post.url }}">{{ post.title }}</a>
+                       </h4>
+                     </li>
+                 {% endif %}
+               {% endfor %}
+            </ul>
       </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="text-center panel-title">
+        <a class="center collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          All
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+            <ul class="text-left" style="list-style-position: outside">
+               {% for post in site.posts %}
+                 <li>
+                   <h5>
+                     {{ post.date | date: "%d %B %Y" }} -
+                     <a href="{{ post.url }}">{{ post.title }}</a>
+                   </h5>
+                 </li>
+               {% endfor %}
+            </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
       <div class="col-lg-8">
         <iframe src="https://calendar.google.com/calendar/embed?showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ff9966&amp;src=raccoonvalleykendo%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FChicago" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
       </div>
   </div>
+
+</div>
+</div>
 </section>
